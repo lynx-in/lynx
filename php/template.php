@@ -4,7 +4,7 @@ function printheader()
     echo '  
     <header>
         <div class="container">
-            <a href="./index.html"><div class="logo-box">                    
+            <a href="./"><div class="logo-box">                    
                 <img src="images/favicon.ico">
                 <h1>LYNX</h1>
                 <h2>Web Services</h1>
