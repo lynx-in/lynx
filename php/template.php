@@ -6,7 +6,7 @@ function printheader()
         <div class="container">
             <a href="./"><div class="logo-box">                    
                 <img src="images/favicon.ico">
-                <h1>LYNX</h1>
+                <h1>Lynx</h1>
                 <h2>Web Services</h1>
             </div></a>
             <btn id="menu-button" onclick="toggledisplay('main-menu')"><span class="material-icon">menu</span></btn>
@@ -20,7 +20,7 @@ function printfooter()
     <footer>
             <div class="logo-box">                    
                 <img src="images/lynx-logo-white.png" style="opacity:0.3">
-                <h1>LYNX</h1>
+                <h1>Lynx</h1>
                 <h2>Web Services</h1>
             </div>
             <div class="row">
