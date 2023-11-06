@@ -9,7 +9,7 @@ function printheader()
                 <h1>LYNX</h1>
                 <h2>Web Services</h1>
             </div></a>
-            <btn id="menu-button" onclick="toggledisplay(\'main-menu\')"><span class="material-icon">menu</span></btn>
+            <btn id="menu-button" onclick="toggledisplay('main-menu')"><span class="material-icon">menu</span></btn>
         </div>
     </header>
     ';
