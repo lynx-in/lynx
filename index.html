@@ -1,98 +1,149 @@
 <html>
     <head>
-        <title>Lynx Web Services</title>
+        <title>Lynx Websites</title>
         <meta name="robots" content="noindex nofollow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link href="style/design-primary.css" rel="stylesheet">
-    </head>
+        
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link href="style/bootstrap-grid.min.css" rel="stylesheet" >
+    <link href="style/lynx-primary.css" rel="stylesheet">
+    <link href="style/lynx-custom.css" rel="stylesheet">
+        </head>
     <body>
-        <header>
-            <div class="container">
-                <a href="./"><div class="logo-box">                    
-                    <img src="images/favicon.ico">
-                    <h1>Lynx</h1>
-                    <h2>Web Services</h1>
-                </div></a>
-                <btn id="menu-button" onclick="toggledisplay('main-menu')"><span class="material-icon">menu</span></btn>
+          
+    <header>
+        <div class="container">
+            <div class="logo-box">                    
+                <a href="./index.html"><img src="images/lynx-logo.png"></a>
+            </div>    
+    <ul id="main-menu">
+    <li><a href="home.php">Homepage</a></li>
+    <li><a href="about.php">About Us</a></li>
+    <li><a href="services.php">Services</a></li>
+    <li><a href="news.php">News</a></li>
+    <li><a href="contact.php">Contact us</a></li>
+    </ul>
+    
+            <btn id="menu-toggle-button" onclick="toggledisplay('main-menu')"><span class="material-icon">menu</span></btn>
+            <btn><span class="material-icon">account_circle</span></btn>
+            <btn><span class="material-icon">search</span></btn>
+        </div>
+    </header>
+            <div class="top-container heading">
+            <div class="slider big-slider slider-scrollbar">
+            <div class="slides-data">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
             </div>
-        </header>
-        <ul id="main-menu">
-            <li><a href="./">Homepage</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-        </ul>         
-        <div class="linkbar">
-            <a><img src="images/icon/facebook.png"></a>
-            <a><img src="images/icon/instagram.png"></a>
-            <a><img src="images/icon/whatsapp.png"></a>
-            <a><img src="images/icon/twitter.png"></a>
-            <a><img src="images/icon/youtube.png"></a>
-            <a><img src="images/icon/linkedin.png"></a>
-            <a><img src="images/icon/telegram.png"></a>
+            </div>
         </div>
         <div class="container">
-        <br><br><br><br><br><br><br><br><br><br><hr>
-        <br><br><br><br><br><br><br><br><br><br><hr>
-        <br><br><br><br><br><br><br><br><br><br><hr>
-        <br><br><br><br><br><br><br><br><br><br><hr>
-        <br><br><br><br><br><br><br><br><br><br><hr>
-        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
-        <footer>
-            <div class="logo-box">                    
-                <img src="images/lynx-logo-white.png" style="opacity:0.3">
-                <h1>Lynx</h1>
-                <h2>Web Services</h1>
+            
+    <div class="linkbar">
+        <a href="https://www.facebook.com/LynxIndia/" target="_blank"><img src="images/icon/facebook.png"></a>
+        <a href="https://wa.me/919999803336" target="_blank"><img src="images/icon/whatsapp.png"></a>
+        <a href="https://wa.me/919999803336" target="_blank"><span class="material-icon">call</span></a>
+        <a href="https://wa.me/919999803336" target="_blank"><span class="material-icon">mail</span></a>
+        <a><span class="material-icon">settings</span></a>
+    </div>
+        
+    <footer><div class="container" style="width:100%;padding:0px 0px 40px 0px;text-align:center;">                               
+            <img src="images/lynx-logo.png" style="opacity:0.5" width="250px">
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Why choose us</h2>
-                    <p>Lynx Web Services offers cost effective and minimalistic web services for your business. We have been providing our customers with industry standard mobile friendly websites and web related services since 2016.</p>
-                    <p>Give your business a classy and reliable web presence with out expertly curated web products.</p>
+                <div class="col-xl-4">
+                    <h4>Why choose us</h4>
+                    <p>Lynx Web Services provides minimalistic and professional website and related services to businesses around the world. With over 10 years of experience in the industry, we know exactly what you need on the internet to boost your business.</p>
+                    <p>Our clients love us!</p>
+                    <hr/>
+                    <h4>Customer Reviews</h4>
+            <div class="slider slider-scrollbar">
+            <div class="slides-data">
+                <div class="slide review-box">
+                <p>They are the best web developers for businesses who want peace of mind and proffesional websites. Highly recommended!</p>
+                <span>Nitin Goyal<br>
+                CEO, Tamron India</span>
+                </div>
+                <div class="slide review-box">
+                <p>I highly value the detailed and prompt web services provided to our company over sevaral years. They always give give clean and professional results.</p>
+                <span>Ulrich Bexte<br>
+                Director, BCT Touristik</span>
+                </div>
+                <div class="slide review-box">
+                <p>Priyank has great coding and design skills. He has always delivered web designs exactly how we wanted. The precision of work at Lynx is top notch.</p>
+                <span>Vikas Sharma<br>
+                CEO, Candor View</span>
+                </div>
+            </div>
+            </div>
                 </div>
         
-                <div class="col-md-4">
-                    <h2>Technologies we serve</h2>
-                    <img class="margin-10" src="images/icon/html5.png" height="60px"/>
-                    <img class="margin-10" src="images/icon/css3.png" height="60px"/>
-                    <img class="margin-10" src="images/icon/bootstrap.png" height="60px"/>
-                    <img class="margin-10" src="images/icon/php.png" height="60px"/>
-                    <img class="margin-10" src="images/icon/aws.png" height="60px"/>
-                    <img class="margin-10" src="images/icon/react.png" height="60px"/>
-                    <img class="margin-10" src="images/icon/zoho.png" height="60px"/>
+                <div class="col-xl-3">
+                    <h4>Technologies we use</h4>
+                    <img src="images/icon/html5.png" class="footer-icon"/>
+                    <img src="images/icon/css3.png" class="footer-icon"/>
+                    <img src="images/icon/js.png" class="footer-icon"/>
+                    <img src="images/icon/php.png" class="footer-icon"/>
+                    <img src="images/icon/mysql.png" class="footer-icon"/>
+                    <img src="images/icon/react.png" class="footer-icon"/>
+                    <img src="images/icon/bootstrap.png" class="footer-icon"/>
+                    <img src="images/icon/jquery.png" class="footer-icon"/>
+                    <img src="images/icon/linux.png" class="footer-icon"/>
                 </div>
         
-                <div class="col-md-4">
-                    <h2>Important Links</h2>
+                <div class="col-xl-5">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-6 col-lg-3">
                                 <ul>
-                                    <h3>Sitemap</h3>
-                                    <li><a href="./">Homepage</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
+                                <h4>Sitemap</h4>
+                                        
+    <ul id="main-menu">
+    <li><a href="home.php">Homepage</a></li>
+    <li><a href="about.php">About Us</a></li>
+    <li><a href="services.php">Services</a></li>
+    <li><a href="news.php">News</a></li>
+    <li><a href="contact.php">Contact us</a></li>
+    </ul>
+    
                                 </ul>
                             </div>            
-                            <div class="col-6">
+                            <div class="col-6 col-lg-4">
                                 <ul>
-                                    <h3>Legal</h3>
-                                    <li><a href="terms-of-service.html">Terms of services</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                    <li><a href="refund-policy.html">Refund policy</a></li>
+                                    <h4>Contact Details</h4>
+                                    <li><span class="material-icon">call</span> (+91) 9999803336</li>
+                                    <li><span class="material-icon">video_call</span> Skype : lynx_web</li>
+                                    <li><span class="material-icon">mail</span> info@lynx.org.in</li>
+                                    <li><span class="material-icon">home</span> Narela, Delhi 110040</li>
                                 </ul>
+                            </div>            
+                            <div class="col-12 col-lg-5">
+                                <button class="rounded-big-button"><span class="material-icon">contrast</span> Switch Theme</button><br>
+                                <span class="language-data text-center">
+                                    <a href="../hindi"><img src="images/flags/flag-india.png"> हिन्दी</a>
+                                    <a href="../in"><img src="images/flags/flag-india.png"> English(IN)</a>
+                                    <a href="../us"><img src="images/flags/flag-us.jpg"> English(US)</a>
+                                    <a href="../uk"><img src="images/flags/flag-uk.jpg"> English(UK)</a>
+                                    <a href="../german"><img src="images/flags/flag-germany.jpg"> German</a>                                    
+                                </span>
                             </div>
+                        </div>
+                        <hr/>
+                        <div class="footnote text-center">
+                        Copyright © 2024 Lynx Web Solutions. All rights reserved.<br><br>
+                        <a href="privacy-policy.php">PRIVACY POLICY</a>|
+                        <a href="refund-policy.php">REFUND POLICY</a>|
+                        <a href="terms-of-service.php">TERMS OF SERVICE</a>
+                        <a href="sitemap.php">SITEMAP</a>
                         </div>
                     </div>
                 </div>
             </footer>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
             function toggledisplay($toggleId){
                 $toggleElement=document.getElementById($toggleId);
@@ -100,5 +151,4 @@
                 else if($toggleElement.style.display=="block")$toggleElement.style.display="none";
                 else $toggleElement.style.display="block";
             }
-    </script>
-</html>
+    </script></html>
